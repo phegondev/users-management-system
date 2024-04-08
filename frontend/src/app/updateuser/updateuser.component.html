@@ -1,0 +1,23 @@
+<div class="container">
+    <p *ngIf="errorMessage" class="error-message">{{errorMessage}}</p>
+    <h2>Update User</h2>
+    <form (ngSubmit)="updateUser()">
+        <div class="form-group">
+                <label for="">Name: </label>
+                <input type="text" name="name" [(ngModel)]="userData.name">
+        </div>
+        <div class="form-group">
+                <label for="">Email: </label>
+                <input type="text" name="emaik" [(ngModel)]="userData.email">
+        </div>
+        <div class="form-group">
+                <label for="">Role: </label>
+                <input type="text" name="role" [(ngModel)]="userData.role">
+        </div>
+        <div class="form-group">
+                <label for="">City: </label>
+                <input type="text" name="city" [(ngModel)]="userData.city">
+        </div>
+        <button type="submit">Update</button>
+    </form>
+</div>

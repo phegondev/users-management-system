@@ -1,0 +1,32 @@
+<div class="container">
+    <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+    <h2>Registration</h2>
+    <form (submit)="handleSubmit()">
+      <div class="form-group">
+        <label>Name:</label>
+        <input type="text" name="name" [(ngModel)]="formData.name" required />
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" name="email" [(ngModel)]="formData.email" required />
+      </div>
+      <div class="form-group">
+        <label>Password:</label>
+        <input type="password" name="password" [(ngModel)]="formData.password" required />
+      </div>
+      <div class="form-group">
+        <label>Role:</label>
+        <select name="role" [(ngModel)]="formData.role" required>
+          <option value="">Select Role</option>
+          <option value="ADMIN">ADMIN</option>
+          <option value="USER">USER</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>City:</label>
+        <input type="text" name="city" [(ngModel)]="formData.city" required />
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  
