@@ -1,0 +1,328 @@
+
+/* NAVBAR STYLING */
+
+*{
+  margin: 0;
+  }
+  
+  .link-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  }
+  
+  nav {
+  background-color: #333;
+  padding: 10px 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  }
+  
+  ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  }
+  
+  li {
+  display: inline-block;
+  margin: 0 10px;
+  }
+  
+  a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+  background-color: #555;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  nav {
+  padding: 5px 0;
+  }
+  
+  li {
+  display: block;
+  margin: 10px 0;
+  }
+  }
+  
+  
+  
+  /* LOGIN STYLLING */
+  /* index.css */
+  .auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
+  
+  h2 {
+  margin-top: 0;
+  }
+  
+  .form-group {
+  margin-bottom: 15px;
+  }
+  
+  label {
+  display: block;
+  font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+  background-color: #0056b3;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .auth-container {
+  padding: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+  padding: 8px;
+  }
+  }
+  
+  /* REGISTRATION STYLLING */
+  /* + */
+  /* update user */
+  
+  .auth-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
+  
+  .auth-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  }
+  
+  .form-group {
+  margin-bottom: 15px;
+  }
+  
+  .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  }
+  
+  button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+  background-color: #0056b3;
+  }
+  
+  
+  
+  /* FOOTER STYKLING */
+  .footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  /* PAGE NOT FOUND STYLING */
+  /* index.css */
+  .not-found-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  }
+  
+  h2 {
+  color: #d9534f;
+  }
+  
+  p {
+  color: #333;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .not-found-container {
+  padding: 10px;
+  }
+  }
+  
+  /* ERROR STYLING */
+  .error-message {
+  color: red;
+  text-align: center;
+  }
+  
+  
+  
+  /*USER MANAGEMENT PAGE*/
+  .user-management-container {
+  max-width: 800px;
+  margin: 0px auto 60px auto;
+  padding: 20px;
+  
+  }
+  
+  h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  }
+  
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+  
+  th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  }
+  
+  th {
+  background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+  background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+  background-color: #f2f2f2;
+  }
+  
+  button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .reg-button {
+  padding: 15px;
+  margin: 10px auto;
+  }
+  
+  button:hover {
+  background-color: #0056b3;
+  }
+  
+  .delete-button {
+  background-color: rgb(255, 9, 9);
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 400;
+  }
+  
+  
+  /**PROFILE STYLING"
+  /* index.css */
+  
+  .profile-page-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
+  
+  .profile-page-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  }
+  
+  .profile-page-container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  }
+  
+  .profile-page-container button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .profile-page-container button:hover {
+  background-color: #093c72;
+  }
+  
+    
