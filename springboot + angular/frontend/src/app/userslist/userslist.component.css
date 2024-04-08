@@ -1,0 +1,84 @@
+.container {
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+    }
+    
+    .reg-button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .reg-button:hover {
+    background-color: #0056b3;
+    }
+    
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    table th,
+    table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    color: #495057;
+    }
+    
+    table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    }
+    
+    .delete-button,
+    .update-button {
+    padding: 9px;
+    margin: 0px 2px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    .update-button{
+    background-color: #007bff;
+    }
+    
+    .delete-button:hover{
+    background-color: #c82333;
+    }
+    
+    .update-button:hover {
+    background-color: #012750;
+    
+    }
+    .error-message {
+    color: #dc3545;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    }
+    
+    
